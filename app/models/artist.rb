@@ -11,7 +11,7 @@ class Artist < ActiveRecord::Base
   end
 
   def genre_count
-    #return the number of genres associated with the artist
+    self.genres.count
   end
 end
 #ENV["PLAYLISTER_ENV"] == "test"
