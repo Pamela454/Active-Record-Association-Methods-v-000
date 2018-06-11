@@ -6,10 +6,10 @@ class Genre < ActiveRecord::Base
      self.songs.count
 
   def artist_count
-
+    self.artists.count
   end
 
   def all_artist_names
-    
+
   end
 end
